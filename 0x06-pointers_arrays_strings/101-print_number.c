@@ -14,7 +14,7 @@ void print_number(int n)
 	num = n;
 	if (n < 0)
 	{
-		_putchar(45);
+		_putchar('-');
 		num = -n;
 	}
 /* print number by recursion*/
@@ -24,4 +24,3 @@ void print_number(int n)
 	}
 	_putchar((num % 10) + '0');
 }
-
